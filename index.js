@@ -1,3 +1,5 @@
-function greet (name) {
-    return Hello + Mark;
+function greet (Hello) {
+    return Hello;
 }
+
+const name = (Mark)
