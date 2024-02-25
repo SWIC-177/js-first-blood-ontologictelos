@@ -1,5 +1,7 @@
-function greet (Hello) {
-    return Hello;
+function greet (name) {
+    return "Hello," + name;
 }
 
-const name = (Mark)
+const greeting = greet ("Mark");
+
+console.log (greeting)
