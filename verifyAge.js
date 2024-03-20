@@ -1,9 +1,10 @@
-const firstName = "Mark";
-const age = 30; 
 
 function verifyAdulthood(){
-    if (age >= 18)  console.info (`Welcome, ${firstName}`);
-    else console.info (`You are not old enough to enter, ${firstName}`);
+    const firstName = "Mark";
+const age = 30; 
+
+    if (age >= 18)  return (`Welcome, ${firstName}`);
+    else return (`You are not old enough to enter, ${firstName}`);
 }
 
-console.info (verifyAdulthood)
+console.log (verifyAdulthood)
