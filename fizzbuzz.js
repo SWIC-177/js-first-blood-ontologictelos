@@ -3,7 +3,7 @@
 // multiples of 5 print buzz
 // how do i replace a number with a string?
 
-for(let i=0;i<=100;i+=1) {
+for(let i=1;i<=100;i+=1) {
 if (i%3 ===0 && i%5 ===0){
     console.log('fizzbuzz')
   } else if (i%3 === 0) {
