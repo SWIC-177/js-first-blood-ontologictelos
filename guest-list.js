@@ -30,8 +30,8 @@ const people = [
 
 for(let i =0; i< people.length; i += 1){
     const person = people[i];
-  const adultMessage = verifyAdulthood(person.name, person.age);
-  console.log(adultMessage);
+    const adultMessage = verifyAdulthood(person.name, person.age);
+    console.log(adultMessage);
 }
 
   // create a loop that prints people to terminal.
