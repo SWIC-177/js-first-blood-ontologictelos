@@ -1,15 +1,4 @@
-// create a function that logs to console the score of two teams
-// create an argument called score that can be passed to functions
-// 
-
-// const red = 0
-// const blue = 0
-
-// function team1 (){
-    // return red + 1
-// }
-
-// console.log(team1)
+// This was made with the help of claude ai
 
 function team1 (team1Score) {
     return function add() {
