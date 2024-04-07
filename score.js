@@ -15,5 +15,11 @@ function team2 (team2Score) {
     };
 }
 
-const blueTeam = team2 (0);
+const blueTeam = team2 (4);
 console.log(`Blue Team:` , blueTeam());
+
+if (team1() > team2()) {
+    console.log (`Red team is winning`)
+}else if (team1() < team2()) {
+    console.log (`Blue team is winning`)
+};
