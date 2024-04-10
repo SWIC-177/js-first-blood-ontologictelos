@@ -33,7 +33,7 @@ const people = [
   // must create new object {...p}
   // then create logic loop for finding/renaming odds
   // return the new object to console.
-  // 
+  // note: ++ = plus one += means performs addition
   function renameOdds(p) {
     const oddName = [...p];
     for (let i = 0; i < oddName.length; i+= 1) {
