@@ -16,4 +16,4 @@ const person = {
   otherPerson.age = "25";
   
   console.log(`Person's name is: ${person.name}`);
-  console.log(`Other Person's name is: ${otherPerson.hobbies}`);
+  console.log(`Other Person's name is: ${otherPerson.address.city}`);
