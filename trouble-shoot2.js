@@ -30,19 +30,32 @@ const people = [
       age: 67,
     },
   ];
-  // must create new object {...p}
-  // then create logic loop for finding/renaming odds
-  // return the new object to console.
-  // note: ++ = plus one += means performs addition
-  function renameOdds(p) {
-    const oddName = [...p];
-    for (let i = 0; i < oddName.length; i+= 1) {
-      if (oddName[i].id % 2 !== 0) {
-        oddName[i] = { ...oddName[i], name: "Odd Name" };
-      }
-    }
+
+const num = [1,2,3,4,5]
   
-    return oddName;
+ // function renameOdds(p) {
+ //   const oddName = [...p];
+ //   for (let i = 0; i < oddName.length; i+= 1) {
+ //     if (oddName[i].id % 2 !== 0) {
+ //       oddName[i] = { ...oddName[i], name: "Odd Name" };
+ //     }
+ //   }
+  
+ //   return oddName;
+ // }
+  // the below code uses the filter() and map() function.
+  function even(p) {
+    return p.filter(person => person.id % 2 === 0).map(person => person.name);
   }
+
+  function age(p){
+    return p.filter(person => person.age > 30).map(person=> person.name)
+  }
+
+const numPeople = people.concat(num);
   
-  console.log(renameOdds(people));
+  // console.log(renameOdds(people));
+  console.log(even(people));
+  console.log(numPeople);
+  console.log(age(people));
+
